@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Portfolio",
   full_name: "Shubham Pandit",
   subTitle:
-    " Full Stack Game Developer, App & Web Developer, Graphics Designer",
+    " Full Stack Game Developer, App Developer & Web Developer",
   resumeLink:
     "https://docs.google.com/document/d/e/2PACX-1vRX3mPl3-2FtXlANogfDUa7jR9IBoIfdUTGiqC0RPqwK8KNsn0ILYy-dpkJwAcAGg/pub",
   mail: "mailto:shubhoum@gmail.com"
@@ -205,7 +205,7 @@ const skills = {
           skillName: "Git / Github",
           fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#ffffff"
+            color: "#f6f6f6"
           }
         },
         {
@@ -232,7 +232,7 @@ const skills = {
           skillName: "Blockchain /NFTs",
           fontAwesomeClassname: "simple-icons:blockchaindotcom",
           style: {
-            color: "#ffffff"
+            color: "#f6f6f6"
           }
         },
         {
@@ -501,6 +501,29 @@ const projects = {
     },
     {
       id: "1",
+      name: "Food App Demo",
+      url: "https://play.google.com/store/apps/details?id=com.shubham.demofoodapp",
+      description:
+        "This is a demo food app where users can search and orders their favourite food items. This app also includes payment gateway and user authentication functionality.",
+      languages: [
+        {
+          name: "Flutter",
+          iconifyClass: "logos:flutter"
+        },
+        {
+          name: "Dart",
+          iconifyClass: "vscode-icons:file-type-dartlang"
+        },
+        {
+          name: "Google Firebase",
+          iconifyClass: "logos:firebase"
+        },
+
+
+      ]
+    },
+    {
+      id: "2",
       name: "Starmaker Downloader",
       url: "https://play.google.com/store/apps/details?id=com.shubham.starmakerdownloader",
       description:
@@ -523,7 +546,7 @@ const projects = {
       ]
     },
     {
-      id: "2",
+      id: "3",
       name: "Instagram Downloader",
       url: "https://play.google.com/store/apps/details?id=com.shubham.instagramdownloader",
       description:
@@ -546,7 +569,7 @@ const projects = {
       ]
     },
     {
-      id: "3",
+      id: "4",
       name: "Live COVID Status",
       url: "https://github.com/shubhoum/LiveCovid",
       description:
@@ -575,7 +598,7 @@ const projects = {
       ]
     },
     {
-      id: "4",
+      id: "5",
       name: "Brain Mesh",
       url: "https://play.google.com/store/apps/details?id=com.Shubham.Games.BrainMesh",
       description:
@@ -600,7 +623,7 @@ const projects = {
       ]
     },
     {
-      id: "3",
+      id: "6",
       name: "BlockChain Wallet",
       url: "https://github.com/vvHacker007/Login-Authenticator",
       description: "A Wallet made with react that store the wallet address and NFTs present in the wallet",
@@ -624,7 +647,7 @@ const projects = {
       ]
     },
     {
-      id: "4",
+      id: "7",
       name: "3D-FPS Multiplayer Game (Unity 3d)",
       url: "https://youtu.be/MIniwAH8xGo",
       description:
@@ -653,7 +676,7 @@ const projects = {
       ]
     },
     {
-      id: "5",
+      id: "8",
       name: "J.O.S.H - India's First Play-to-Earn NFT-Based FPS Game",
       url: "https://www.youtube.com/watch?v=g7II-Tzabec&feature=emb_imp_woyt",
       description:
@@ -687,7 +710,7 @@ const projects = {
       ]
     },
     {
-      id: "6",
+      id: "9",
       name: "Zoom Auto Login",
       url: "https://drive.google.com/drive/folders/1omioFBk_4yz4wpZIjsd0zwNtT0uuUR6o?usp=sharing",
       description:
@@ -704,7 +727,7 @@ const projects = {
       ]
     },
     {
-      id: "7",
+      id: "10",
       name: "Color Blast",
       url: "https://play.google.com/store/apps/details?id=com.Shubham.Games.ColorBlast",
       description: "Basic 2D Game where the player has to match the color of the balls",
@@ -725,7 +748,7 @@ const projects = {
       ]
     },
     {
-      id: "8",
+      id: "11",
       name: "Tap Endless",
       url: "https://play.google.com/store/apps/details?id=com.Shubham.Games.TapTap",
       description:
@@ -747,7 +770,7 @@ const projects = {
       ]
     },
     {
-      id: "9",
+      id: "12",
       name: "COVID-19 Transmission Simulation",
       url: "https://youtu.be/XOKXSZZoc7w",
       description: "Simulation made with python and turtle",
@@ -760,7 +783,7 @@ const projects = {
     },
 
     {
-      id: "10",
+      id: "13",
       name: "Brain Loop",
       url: "",
       description:
